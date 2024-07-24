@@ -2,7 +2,7 @@ import { LightningElement, api, wire } from 'lwc';
 import { loadScript } from 'lightning/platformResourceLoader';
 import JS_PDF from '@salesforce/resourceUrl/jsPDFLibrary';
 import JSPDF_AUTOTABLE from '@salesforce/resourceUrl/jsAutotable';
-import LOGO_IMAGE from '@salesforce/resourceUrl/QMSEALS_Logo'; // 'LogoImage' from static resource
+import LOGO_IMAGE from '@salesforce/resourceUrl/company_logo'; // 'LogoImage' from static resource
 import getQuoteData from '@salesforce/apex/QuoteController.getQuoteData'; 
 import getQuoteLineItems from '@salesforce/apex/QuoteController.getQuoteLineItems'; 
 import getQuoteSubtotal from '@salesforce/apex/QuoteController.getQuoteSubtotal';
