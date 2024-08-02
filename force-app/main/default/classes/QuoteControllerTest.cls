@@ -109,7 +109,7 @@ public class QuoteControllerTest {
         Test.stopTest();
 
         // Validate the results
-      //  System.assertEquals(2, quoteLineItems.size(), 'The number of retrieved Quote Line Items should be 2');
+        System.assertEquals(2, quoteLineItems.size(), 'The number of retrieved Quote Line Items should be 2');
     }
 
     @isTest
@@ -124,6 +124,6 @@ public class QuoteControllerTest {
 
         // Validate the result
         Decimal subtotal = (Decimal)result.get('subtotal');
-       // System.assertEquals(200, subtotal, 'The subtotal of the Quote Line Items should be 200');
+        System.assertEquals(200, subtotal, 'The subtotal of the Quote Line Items should be 200');
     }
 }
