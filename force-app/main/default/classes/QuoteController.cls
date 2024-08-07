@@ -59,7 +59,10 @@ public with sharing class QuoteController {
                            Quantity, 
                            UnitPrice, 
                            Discount, 
-                           TotalPrice 
+                           TotalPrice,
+                           Picture__c,
+                           //Image_URL__c,
+                           Image_Display__c
                     FROM QuoteLineItem 
                     WHERE QuoteId = :quoteId];
         } catch (Exception e) {
