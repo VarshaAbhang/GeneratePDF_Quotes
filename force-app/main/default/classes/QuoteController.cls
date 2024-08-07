@@ -60,6 +60,7 @@ public with sharing class QuoteController {
                            UnitPrice, 
                            Discount, 
                            TotalPrice,
+                           Picture__c,
                            //Image_URL__c,
                            Image_Display__c
                     FROM QuoteLineItem 
