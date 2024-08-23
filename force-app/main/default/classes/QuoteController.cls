@@ -1,11 +1,3 @@
-// public with sharing class QuoteController
-// {
-//     @AuraEnabled(cacheable=true)
-//     public static Quote getQuoteData(Id quoteId) 
-//     {
-//         return [SELECT QuoteAccountId, QuoteNumber, Name  FROM Quote WHERE Id = :quoteId];   /* Add other fields as needed */
-//     }
-
 public with sharing class QuoteController {
 
     @AuraEnabled(cacheable=true)
